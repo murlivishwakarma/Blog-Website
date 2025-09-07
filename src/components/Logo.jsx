@@ -1,5 +1,5 @@
 import React from "react";
-import logo from ../public/Logo.jpeg;
+import logo from "../public/Logo.jpeg";
 function Logo({ width = "150px" }) {
   return (
     <div
