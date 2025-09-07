@@ -1,4 +1,5 @@
 import React from "react";
+import logo from ../public/Logo.jpeg;
 function Logo({ width = "150px" }) {
   return (
     <div
@@ -6,7 +7,7 @@ function Logo({ width = "150px" }) {
       style={{ width, height: "auto" }}
     >
       <img
-        src="./src/Logo.jpeg" // Replace with your image path
+        src={logo} // Replace with your image path
         alt="Logo"
         className="object-contain w-full  rounded-full h-auto"
         style={{ maxWidth: width }}
